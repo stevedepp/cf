@@ -232,31 +232,35 @@ Please click the video to hear sound or follow along with the transcript that's 
 
 > ... 'producerai' code, ...
 
-<img width="817" alt="template yml" src="https://user-images.githubusercontent.com/38410965/113744032-50555400-96d2-11eb-95c0-b851966bd007.png">
+<img width="819" alt="( out 9 51 31 PM yml" src="https://user-images.githubusercontent.com/38410965/113746481-5f3d0600-96d4-11eb-8758-4bfbaa9a8cff.png">
+
 
 #
 
 > ... and its dependencies.
 
-<img width="817" alt="@1-create-bucket sh" src="https://user-images.githubusercontent.com/38410965/113744071-5d724300-96d2-11eb-9252-e31e8bea1ec2.png">
+<img width="819" alt="( out 9 51 31 PM yml" src="https://user-images.githubusercontent.com/38410965/113746505-682dd780-96d4-11eb-9ed5-8dd17372152c.png">
+
 
 #
 
 > So, now after this script, we have out.yaml, that has only folders addresses for resources found in an s3 bucket. 
 
-<img width="817" alt=" 3-deploy sh" src="https://user-images.githubusercontent.com/38410965/113744300-9ad6d080-96d2-11eb-84a3-a197b2fb2b34.png">
+<img width="817" alt="aws cloudformation deploy --template-file out yml --stack-name blank-python" src="https://user-images.githubusercontent.com/38410965/113746558-73810300-96d4-11eb-97e0-63dc4e6c6752.png">
+
 
 #
 
 > Next, we ...
 
-<img width="819" alt="out 9 51 31 PM yml" src="https://user-images.githubusercontent.com/38410965/113744375-ac1fdd00-96d2-11eb-8ed7-4e0897b05d1b.png">
+<img width="817" alt="@ 3-deploy sh" src="https://user-images.githubusercontent.com/38410965/113746589-7bd93e00-96d4-11eb-8004-82b0c40f1ac4.png">
 
 #
 
 > ... deploy.
 
-<img width="819" alt="( out 9 51 31 PM yml" src="https://user-images.githubusercontent.com/38410965/113744414-b3df8180-96d2-11eb-8d70-d6f6b34b9880.png">
+<img width="817" alt=" 3-deploy sh" src="https://user-images.githubusercontent.com/38410965/113746622-872c6980-96d4-11eb-957f-bbebd81e7397.png">
+
 
 
 
