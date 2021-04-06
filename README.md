@@ -166,10 +166,97 @@ Please click the video to hear sound or follow along with the transcript that's 
 
 > ... transforms ...
 
+<img width="817" alt="# 3-deploy sh" src="https://user-images.githubusercontent.com/38410965/113742462-a7f2c000-96d0-11eb-9a9f-16a5b7365c4f.png">
 
+#
 
+> ... a template file called template .yaml into ...
 
+<img width="817" alt="@ 3-deploy sh" src="https://user-images.githubusercontent.com/38410965/113742514-b0e39180-96d0-11eb-92e2-5875b57f87f3.png">
 
+#
+
+> ... a new template file called out.yml.
+
+<img width="817" alt="3-deploy sh" src="https://user-images.githubusercontent.com/38410965/113742562-ba6cf980-96d0-11eb-9984-c4b08fe6589a.png">
+
+#
+
+> Here’s the original template.yml file; which incorporates a Lambda Layers feature called 'transforms'.  Transforms are like an Excel macro for automation.  
+
+<img width="817" alt="@1-create-bucket sh" src="https://user-images.githubusercontent.com/38410965/113742739-ebe5c500-96d0-11eb-9744-084cab7f0c1a.png">
+
+#
+
+> You start with template.yml, with references to code for the lambda function, 'serverlessproducer' on my MBP, ...
+
+<img width="817" alt="template yml" src="https://user-images.githubusercontent.com/38410965/113742792-f7d18700-96d0-11eb-830f-3a1683c77440.png">
+
+#
+
+> ... and depdenencies in the folder named package serverless producer also on my MBP.
+
+<img width="817" alt="@1-create-bucket sh" src="https://user-images.githubusercontent.com/38410965/113743083-4121d680-96d1-11eb-9823-77ee7997778f.png">
+
+#
+
+> The same here for 'producerai' lambda code with a reference to my MBP, ...
+
+<img width="817" alt="template yml" src="https://user-images.githubusercontent.com/38410965/113743230-6d3d5780-96d1-11eb-8c5c-4bcfa0f55cbb.png">
+
+#
+
+> ... and its folder full of dependencies - this path is also on my MBP.
+
+<img width="817" alt="@1-create-bucket sh" src="https://user-images.githubusercontent.com/38410965/113743248-775f5600-96d1-11eb-9cbb-0b5c3b9f51de.png">
+
+#
+
+> The automation yields a transformed template out.yml with new addresses for resource files on the S3 bucket we made earlier.    
+
+<img width="817" alt=" 3-deploy sh" src="https://user-images.githubusercontent.com/38410965/113743470-b7bed400-96d1-11eb-95f7-c9d3406ddf3a.png">
+
+#
+
+> Here’s the out.yaml referring to the S3 bucket holding the code for 'severlessproducer' lambda, ...
+
+<img width="819" alt="out 9 51 31 PM yml" src="https://user-images.githubusercontent.com/38410965/113743536-c60cf000-96d1-11eb-91c3-a7e285398528.png">
+
+#
+
+> ... its dependencies,  ...
+
+<img width="819" alt="( out 9 51 31 PM yml" src="https://user-images.githubusercontent.com/38410965/113743725-fce30600-96d1-11eb-8bd4-9b72b8f25ccb.png">
+
+#
+
+> ... 'producerai' code, ...
+
+<img width="817" alt="template yml" src="https://user-images.githubusercontent.com/38410965/113744032-50555400-96d2-11eb-95c0-b851966bd007.png">
+
+#
+
+> ... and its dependencies.
+
+<img width="817" alt="@1-create-bucket sh" src="https://user-images.githubusercontent.com/38410965/113744071-5d724300-96d2-11eb-9252-e31e8bea1ec2.png">
+
+#
+
+> So, now after this script, we have out.yaml, that has only folders addresses for resources found in an s3 bucket. 
+
+<img width="817" alt=" 3-deploy sh" src="https://user-images.githubusercontent.com/38410965/113744300-9ad6d080-96d2-11eb-84a3-a197b2fb2b34.png">
+
+#
+
+> Next, we ...
+
+<img width="819" alt="out 9 51 31 PM yml" src="https://user-images.githubusercontent.com/38410965/113744375-ac1fdd00-96d2-11eb-8ed7-4e0897b05d1b.png">
+
+#
+
+> ... deploy.
+
+<img width="819" alt="( out 9 51 31 PM yml" src="https://user-images.githubusercontent.com/38410965/113744414-b3df8180-96d2-11eb-8d70-d6f6b34b9880.png">
 
 
 
