@@ -368,7 +368,7 @@ https://github.com/numpy/numpy/issues/13465
 
 #
 
-> Workaround involved lots of testing and eventually some success using AWS Cloud9 to build the right numpy file.
+> Workaround involved lots of testing and eventually some success using AWS Cloud9 to build the right numpy file.  Thank you for watching.  And if you have any ideas on how to fulfill this numpy situation without an artificial workaround, please let me know. 
 
 ### Workarounds
 
