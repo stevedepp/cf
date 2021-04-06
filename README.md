@@ -1,4 +1,4 @@
-## demo video for week 7 (video mislabled as week 6): *CloudFormation Lambda Layers Command Line Tool Major Hiccup*     
+## demo video for week 7 (video mislabled as 'week 6'): *CloudFormation Lambda Layers Command Line Tool Major Hiccup*     
 
 Please click the video to hear sound or follow along with the transcript that's set just below the video.   
 
